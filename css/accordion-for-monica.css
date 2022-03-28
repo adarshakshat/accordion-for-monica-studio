@@ -1,6 +1,8 @@
 h2.resp-accordion {
     cursor: pointer;
     display: none;
+    color:#9946D2;
+    background-color: pink;
 }
 
 .resp-tabs-container .resp-tab-content {
@@ -10,6 +12,8 @@ h2.resp-accordion {
 h2.resp-accordion {
     margin: 0px;
     padding: 10px 15px;
+    color: white;
+    font-weight: 600;
 }
 
 .resp-arrow {
@@ -27,11 +31,13 @@ h2.resp-tab-active span.resp-arrow {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-bottom: 12px solid #9B9797;
+    color:white!important;
 }
 
 /*-----------Accordion styles-----------*/
 h2.resp-tab-active {
-    background: #DBDBDB;
+    color:pink;
+    background-color: #9946D2;
 }
 .resp-easy-accordion  h2.resp-accordion {
         /*display: block;*/
